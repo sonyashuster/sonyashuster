@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  source for tab title: https://nataliahrynko.github.io/index.html  -->
+  <!--  CSS file for Group 4
+Last modified October 6, 2020-->
+
+<!--using bootstrap source to repsonsive text idea from: http://patrickmoldowan.weebly.com/ 
+found out how to use it more from https://getbootstrap.com/docs/3.4/getting-started/ and 
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="css/style.css">
+<script src="js/javascript.js"></script>
+<title>Contact</title>
+
+</head>
+
+
+<body>
+  <div class= "container-fluid">
+    <img  src="images/logo.PNG" class="header-logo" alt="Mapping Marvels" height="94" width="192">
+    <div class= "header">
+      <h1>Mapping&nbsp;Marvels</h1>
+   </div>
+  </div>
+
+<!--
+- Main Part of NavBar
+- Owner : Riley Sweeney
+- Date  : Nov 19
+- From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">The Mission</a>
+  <a href="about.html">The Team</a>
+  <!-- End Owner: Riley Sweeney --> 
+  
+  <!--
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 22
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+  -->
+  <div class="dropdown">
+    <button class="dropbtn">The Services &#9660;
+      <i class="fa fa-caret-down"></i>
+   </button>
+    <div class="dropdown-content">
+        <a href="services.html#collection">Data Collection</a>
+        <a href="services.html#cartographic">Cartographic</a>
+        <a href="services.html#analysis">Spatial Analysis</a>
+        <a href="services.html#programming">Web Design/Programming</a>
+    </div>
+   </div>
+   <div class= "topnav-right">
+   <a href="contact.html" class="active">Contact</a>
+   </div>
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="NavBar()">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+<!-- End owner: Riley Sweeney
+Start owner: Natalia Hrynko
+Use bootstrap to format the writing as well as some css
+Mean to show a paragraph with a summary and then is followed by 2 columns one smaller 
+one with the type of contact and a larger one with the inforamtion-->
+</div>
+  <div class= "container">
+    <div class = "text">
+      <div class= "h2">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+    </div>
+  </div>
+  <hr class= "hr1">
+  <div class= "container">  
+    <div class= "text">
+        <div class= "row">
+            <div class= "p1">Do we have what your company is looking for? 
+                Contact us by email, snail mail or phone to further inquire about our services,
+                our rates or just to chat about our lord and saviour MAPS!</div>
+        </div>
+    </div>
+</div>  
+  <div class= "container">  
+    <div class= "text">
+        <div class= "row">
+            <div class= "col-sm-4">
+                <div class= "h4">Address</div>
+            </div>
+            <div class= "col-sm-8">
+                <div class= "p6">1234 Covid St, Lindsay ON X6X 6X6</div>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-sm-4">
+                <div class= "h4">Email</div>
+            </div>
+            <div class= "col-sm-8">
+                <div class= "p6">mappingmarvels@thisisalie.ca</div>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-sm-4">
+                <div class= "h4">Phone</div>
+            </div>
+            <div class= "col-sm-8">
+                <div class= "p6">(565)-765-7676</div>
+            </div>
+        </div>
+    </div>
+</div>  
+
+</body>
+</html>
+<!-- end owner Natalia Hrynko-->

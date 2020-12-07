@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  source for tab title: https://nataliahrynko.github.io/index.html  -->
+  <!--  CSS file for Group 4
+Last modified October 6, 2020-->
+
+<!--using bootstrap source to repsonsive text idea from: http://patrickmoldowan.weebly.com/ 
+found out how to use it more from https://getbootstrap.com/docs/3.4/getting-started/ and 
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h
+owner: Natalia Hrynko-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="css/style.css">
+<script src="js/javascript.js"></script>
+<title> The Mission </title>
+
+</head>
+
+
+<body>
+  <div class= "container-fluid">
+    <img  src="images/logo.PNG" class="header-logo" alt="Mapping Marvels" height="94" width="192">
+    <div class= "header">
+      <h1>Mapping&nbsp;Marvels</h1>
+   </div>
+  </div>
+<!--
+- Main Part of NavBar
+- Owner : Riley Sweeney
+- Date  : Nov 19
+- From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">The Mission</a>
+  <a href="about.html">The Team</a>
+  <!-- End Owner: Riley Sweeney --> 
+  
+  <!-- 
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 22
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+   -->
+  <div class="dropdown">
+    <button class="dropbtn">The Services &#9660;
+      <i class="fa fa-caret-down"></i>
+   </button>
+    <div class="dropdown-content">
+        <a href="services.html#collection">Data Collection</a>
+        <a href="services.html#cartographic">Cartographic</a>
+        <a href="services.html#analysis">Spatial Analysis</a>
+        <a href="services.html#programming">Web Design/Programming</a>
+    </div>
+   </div>
+   <div class= "topnav-right">
+    <a href="contact.html">Contact</a>
+   </div>
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="NavBar()">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- End Owner: Riley Sweeney -->
+
+<!-- Owner: Natalia Hrynko
+container used to block out sections in templates. 
+Date : Nov 18
+From :  https://www.algonquinwrs.ca/
+found out how to use it more from https://getbootstrap.com/docs/3.4/getting-started/ and 
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h-->
+  <div class= "text">
+    <div class = "container">
+      <div class= "h2">
+        <h2>
+          The Mission
+        </h2>
+      </div>
+      <hr class= "hr1">
+      <div class= "p1">
+        <p> 
+          We aim to provide the highest quality mapping and data services for all your professional 
+          mapping and data needs. The Mapping Marvels are dedicated to providing the highest quality service 
+          around. 
+        </p>
+      </div>
+    </div>
+  </div>  
+
+
+<!--Owner: Natalia Hrynko
+  Date modified: Nov 23 2020
+Source:https://getbootstrap.com/docs/3.4/examples/jumbotron/# 
+Puts the text into 3 responsive columns using bootstrap grid system
+ that when the page is altered will respond accordingly
+ Icons downloaded from https://thenounproject.com/Iconathon1/collection/redefining-women/ 
+*these are stated as public domain-->
+
+<div class = "container">
+<div class= "text">
+<div class="row">
+  <div class="col-md-4">
+  <img class= "picture" src="images/collaboration.png" alt="Collaboration" height="100" width="100">
+  <div class="h4">
+  Collaboration
+  </div>
+  <div class="p2">
+    Our team is composed of members who specialize in various fields critical
+     to effective data collection, analysis, and cartographic representation. 
+     Through working together, we can use one another’s strengths to put out the
+      best work possible.
+          </div>
+  </div>
+  <div class="col-md-4">
+  <img class= "picture" src="images/WorldRenown.png" alt="Quality" height="100" width="100">
+  <div class="h4">
+  Quality
+  </div>
+   <div class= "p2"> 
+    Quality is rule number one for Mapping Marvels. We make sure our work is kept 
+    to a high standard and no data is lost or misrepresented. We maintain state of 
+    the art software and training to provide the best services for our customers.
+          </div>
+  </div>
+  <div class="col-md-4">
+  <img class= "picture" src="images/Integrity.png" alt="Integrity" height="100" width="100">
+  <div class="h4">
+  Integrity
+  </div>
+   <div class= "p2"> 
+    We get that data is one of the most valuable things on the market nowadays.
+     Be sure when working with us all work is kept confidential*. We work to do the 
+     best with the data given. (*If you give us anything illegal, we will report it). 
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+<!-- Create two columns for testimonials The two columns were created using Bootstrap. 3 rows were created so each 
+testimonial was grouped together, in CSS they were given colour and the pixtures and typing was formatted-->  
+
+<div class = "container">
+  <div class="text">
+  
+  
+        <div class= "h2">
+          <h2>
+            Testimonials
+          </h2>
+        </div>
+      
+  <hr class= "hr1">
+  
+  <div class="row">
+    <div class="col-md-6">
+  <div class= "p3"> 
+    “Working with Mapping Marvels was a breeze. We had a well-trained team assigned 
+    to our project and they helped our company to start up our website and provide a 
+    user-friendly and well organized database to organize our incoming orders and better 
+    understand the spatial distribution of our customers. Amazing Service!”
+     </div>
+     <div class= "p4"> 
+      -The Clothing People
+       </div>
+       </div>
+  
+     <div class="col-md-6">
+       <img class= "picture" src="images/Clothingppl_small.jpg" alt="Happy Customers from Clothing People" height="401" width="535">
+              </div>
+            </div>
+
+    
+            <div class="row">
+              <div class="col-md-6">
+            <div class= "p3"> 
+              “After hearing about Mapping Marvels from a fellow business owner we knew that they
+              were the ones to contract our surveying jobs to. Building roads is an important job
+               in our town and they sure now how to make them connect and stuff!”
+               </div>
+               <div class= "p4"> 
+                -The Building People
+                 </div>
+                 </div>
+    
+               <div class="col-md-6">
+                 <img class= "picture" src="images/BuildingPeople_small.jpg" alt="Happy Customers from Building People" height="401" width="535">
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-6">
+                      <div class= "p3"> 
+                        “We had tons of spatial data but when it came to making some nice visually appealing 
+                        maps, we seemed to have hit a wall. Thankfully, we were referred to Mapping Marvels who
+                         were able to provide us with top quality maps that helped our readers better understand
+                          the data being relayed to them. You lot are MARVELOUS!”
+                         </div>
+                         <div class= "p4"> 
+                          -The Newspaper People
+                           </div>
+                           </div>           
+                         <div class="col-md-6">
+                           <img class= "picture" src="images/Newspaperpppl_small.jpg" alt="Happy Customers from Newspaper People" height="401" width="535">
+                                  </div>
+                                </div>
+    <!-- Owner End: Natalia Hrynko-->  
+  </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

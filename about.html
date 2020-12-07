@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  source for tab title: https://nataliahrynko.github.io/index.html  -->
+  <!--  CSS file for Group 4
+Last modified October 6, 2020-->
+
+<!--using bootstrap source to repsonsive text idea from: http://patrickmoldowan.weebly.com/ 
+found out how to use it more from https://getbootstrap.com/docs/3.4/getting-started/ and 
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="css/style.css">
+<script src="js/javascript.js"></script>
+<title> The Team </title>
+
+</head>
+
+
+<body>
+  <div class= "container-fluid">
+    <img  src="images/logo.PNG" class="header-logo" alt="Mapping Marvels" height="94" width="192">
+    <div class= "header">
+      <h1>Mapping&nbsp;Marvels</h1>
+   </div>
+  </div>
+
+<!--
+- Main Part of NavBar
+- Owner : Riley Sweeney
+- Date  : Nov 19
+- From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">The Mission</a>
+  <a href="about.html" class="active">The Team</a>
+  <!-- End Owner: Riley Sweeney --> 
+  
+  <!--
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 22
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+  -->
+  <div class="dropdown">
+    <button class="dropbtn">The Services &#9660;
+      <i class="fa fa-caret-down"></i>
+   </button>
+    <div class="dropdown-content">
+        <a href="services.html#collection">Data Collection</a>
+        <a href="services.html#cartographic">Cartographic</a>
+        <a href="services.html#analysis">Spatial Analysis</a>
+        <a href="services.html#programming">Web Design/Programming</a>
+    </div>
+   </div>
+   <div class= "topnav-right">
+    <a href="contact.html">Contact</a>
+   </div>
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="NavBar()">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <div class= "container">
+    <div class = "text">
+      <div class= "h2">
+        <h2>
+          The Team
+        </h2>
+          <!--
+          Team Photo
+          Owner : RIley Sweeney
+          Date : November 22, 2020
+          -->
+          <img src= "images/team.png" alt="Team Photo" id="Team" height= "269" width="409">
+          <!--End Owner : Riley Sweeney-->
+      </div>
+      <!--
+          Team Text
+          Owner : RIley Sweeney
+          Date : December 3, 2020
+         -->
+      <hr class= "hr1">
+      <div class= "p1">
+        <p> 
+          The Mapping Marvels are THE BEST solution to all your GIS needs.
+          Our team of innovative, incredible professionals are ready 
+          to provide you with excellent customer service along the way.
+          With our vast experience we can be sure to implement the BEST solutions
+          in very little time. The RIGHT team will NEVER back down from a 
+          strict deadline. You can be sure to contact our team with your 
+          highest expectations without doubt. 
+          Please click any of our team members below to learn more about them!! 
+        </p>
+      </div>
+      <!--End Owner : Riley Sweeney-->
+      </div>
+    </div>
+  <!-- 
+    TEAM MEMBER PHOTOS
+    Owner : Riley Sweeney
+    Date : November 22, 2020
+    Container src : https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_default&stacked=h
+    
+  -->
+  <div class="container">
+    <div class="text">
+    <div class="row">
+      <div class="col-md-4">
+        <div class= "h4">Riley Sweeney</div>
+          <a href="https://rileysweeneyfleming.github.io/index.html">
+            <img src= "images/Riley2.jpg" alt="Riley Sweeney" class ="TeamMember" height="210" width="250" >
+          </a>
+      </div>
+      <div class="col-md-4">
+        <div class= "h4">Sonya Shuster</div>
+          <a href="https://sonyashuster.github.io/index.html">
+            <img src= "images/Sonya6.png" alt="Sonya Shuster" class ="TeamMember" height="210" width="250" > 
+          </a>
+      </div>
+      <div class="col-md-4">
+        <div class= "h4">Natalia Hrynko</div>
+          <a href="https://nataliahrynko.github.io/index.html">
+            <img src= "images/Natalia3.png" alt="Natalia Hrynko" class ="TeamMember" height="210" width="250" >
+          </a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--End Owner : Riley Sweeney-->
+<!--
+Team Page Button
+Owner: Riley Sweeney
+Date : November 22, 2020
+Src : https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert2
+-->
+<button id= "Competitor" onclick="alert('SIKE!\nWe have no competitors!\nWe are the BEST :)')">Our Competitors</button>
+<!--End Owner : Riley Sweeney-->
+</body>
+
+</html>

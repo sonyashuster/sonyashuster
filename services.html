@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  source for tab title: https://nataliahrynko.github.io/index.html  -->
+  <!--  CSS file for Group 4
+Last modified October 6, 2020
+general formatting taken from index page-->
+
+<!--using bootstrap source to repsonsive text idea from: http://patrickmoldowan.weebly.com/ 
+found out how to use it more from https://getbootstrap.com/docs/3.4/getting-started/ and 
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_blog&stacked=h-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+<link rel="stylesheet" href="css/style.css">
+<script src="js/javascript.js"></script>
+<title> The Services </title>
+
+</head>
+
+
+<body>
+  <div class= "container-fluid">
+    <img  src="images/logo.PNG" class="header-logo" alt="Mapping Marvels" height="94" width="192">
+    <div class= "header">
+      <h1>Mapping&nbsp;Marvels</h1>
+   </div>
+  </div>
+
+<!--
+- Main Part of NavBar
+- Owner : Riley Sweeney
+- Date  : Nov 19
+- From  : https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">The Mission</a>
+  <a href="about.html">The Team</a>
+  <!-- End Owner: Riley Sweeney --> 
+  
+  <!--
+  - Dropdown Element of NavBar  
+  - Owner: Sonya Shuster 
+  - Date: Nov 22
+  - From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+ -->
+  <div class="dropdown">
+    <button class="dropbtn">The Services &#9660;
+      <i class="fa fa-caret-down"></i>
+   </button>
+    <div class="dropdown-content">
+        <a href="services.html#collection">Data Collection</a>
+        <a href="services.html#cartographic">Cartographic</a>
+        <a href="services.html#analysis">Spatial Analysis</a>
+        <a href="services.html#programming">Web Design/Programming</a>
+    </div>
+   </div>
+   <div class= "topnav-right">
+    <a href="contact.html">Contact</a>
+   </div>
+   <!-- End Owner: Sonya Shuster -->
+   <!-- Resume Owner: Riley Sweeney -->
+  <a href="javascript:void(0);" class="icon" onclick="NavBar()">&#9776;
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!--
+Data Collection
+Owner : Sonya Shuster
+Date : December 3, 2020 
+-->
+  <div class= "container">
+    <div class = "text">
+      <div class= "h2">
+        <h2 id="collection">
+          Data Collection
+        </h2>
+      </div>
+      <hr class= "hr1">
+      <div class= "p1">
+        <p> 
+          At Mapping Marvels, we have all the skills and tools to collect data 
+          to meet your needs. We have the ability to do field surveys using any  
+          of: total stations, spirit levels, and GPS units. We also have experience
+          with creating surveys on ArcGIS's Survey123 system and using it as part
+          of the data collection process - most recently to collect data about  
+          trees. In addition to field surveys, we also have experience working with 
+          satellite imagery and other remote sensing systems to extract data 
+          and understand a study area. 
+        </p>
+        <p>
+          Once we have the raw data, we are able to use ETL (Extract Transform 
+          and Load) processes to bring the data into a database for easier 
+          management. Once the data is in a database, we are able to use our 
+          knowledge SQL to work with the data, find ways to make the data storage 
+          more efficient, and search the database for needed information. 
+        </p>
+      </div>
+      <!--
+        Data Collection
+        Owner : Sonya Shuster
+        Date : December 4, 2020 
+        From :  https://www.w3schools.com/html/html_images.asp
+        -->
+      <div class = row>
+        <div class="col-md-6">
+          <div class="p3">
+            A picture of a tree from our recent tree survey. We determined the 
+            type and species of tree, estimated the height and crown spread, as well as
+            measured and calculated the diameter of the tree trunk.
+          </div>
+          <img src="images/Tree_Nat_smallest.jpg" class="picture" alt="Looking up a tree" width="281" height="375">
+        </div>
+        <div class="col-md-6">
+          <div class="p3">
+            A standard false colour image of Peterborough, ON, Rice Lake to the
+            South of it, and the Oak Ridges Moraine southwest of Peterborough. 
+            This image is overlain with a road network (black lines).
+          </div>
+          <!-- Image from GEOM 66 course work. It is a Landsat 8 OLI image from 
+            June 30, 2016 -->
+          <img src="images/RemoteSensing_small.png" class="picture" alt="Standard False Colour" width="387" height="375">
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Owner: Sonya Shuster -->
+
+<!--
+Cartographic page
+Owner : Riley Sweeney
+Date : December 3, 2020
+-->
+  <div class= "container">
+    <div class = "text">
+      <div class= "h2">
+        <h2 id=cartographic>
+          Cartographic
+        </h2>
+      </div>
+      <hr class= "hr1">
+      <div class= "p1">
+        <p> 
+          Mapping Marvels are the experts in providing you innovative and 
+          effective cartographic services. Our cartography team is equipped 
+          with the latest software/technology to produce maps for all your 
+          mapping needs. Contact our Team today to hear about how we can better 
+          represent your ideas and important information. Allow us to put your mind
+          at ease by accurately targeting the correct audience and applying cartographic
+          design principles to create an eye-catching, effective product.   
+          
+        </p>
+      </div>
+    </div>
+  </div>
+    <!--
+      Cartographic Logo Images
+      Owner : Riley Sweeney
+      Date : November 22, 2020
+      src : https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_default&stacked=h
+      Img1 src : https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_64636a5c446c22391d4ed719e0987cd2/arcgis-pro.png
+      Img2 src : https://lh3.googleusercontent.com/proxy/hLkPeyCEoRhnqZfdBBjZ1pfeqQOFMMugVJUeJhV9USSyaSxmz_BcIDQmIg27zEJYqQui5_bQWr6MOOzp7QiRP2MbSoH9Qn770TQGxyFBPW1wmb-UsCLwA
+      Img3 src : https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/ArcGIS_logo.png/600px-ArcGIS_logo.png
+      -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>ArcGIS Pro</h3>
+          <img src= "images/arcgispro_small.png" alt="ArcGIS Pro" class ="Cart"  height="250" width="250" >
+        </div>
+        <div class="col-md-4">
+          <h3>MAPublisher</h3>
+          <img src= "images/mapublisher_small.png" alt="MapPublisher" class="Cart" height="167" width="250">          
+        </div>
+        <div class="col-md-4">
+          <h3>ArcMAP</h3>
+          <img src= "images/arcmap_small.png" alt="ArcMAP" class ="Cart" height="250" width="250" >
+        </div>
+      </div>
+    </div>
+    <!--End Owner : Riley Sweeney-->
+    <div class = "p5">
+      <p>Click an Image Below to View our Previous Projects</p>
+    </div>
+    <!--SLIDESHOW
+      Owner : Riley Sweeney
+      Date : November 22, 2020
+      src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+    -->
+
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 6</div>
+          <img src="images/map1.PNG" style="width:100%" alt="SweeneyMap1">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+          <img src="images/map2.PNG" style="width:100%" alt="SweeneyMap2">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+          <img src="images/NhrynkoMap1.PNG" style="width:100%" alt="HrynkoMap1">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+          <img src="images/NhrynkoMap2.PNG" style="width:100%" alt="HrynkoMap2">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+          <img src="images/NhrynkoMap3.PNG" style="width:100%" alt="HrynkoMap3">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+          <img src="images/map3.PNG" style="width:100%" alt="SweeneyMap3">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="images/TNmap1.PNG" style="width:100%" onclick="currentSlide(1)" alt="Grey Scale Map ArcGIS Pro">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/TNmap2.PNG" style="width:100%" onclick="currentSlide(2)" alt="Grey Scale Map MAPublisher">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/TNNhrynkoMap1.PNG" style="width:100%" onclick="currentSlide(3)" alt="Population Density ArcGIS Pro">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/TNNhrynkoMap2.PNG" style="width:100%" onclick="currentSlide(4)" alt="Canada's Capital, Ottawa Ontario">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/TNNhrynkoMap3.PNG" style="width:100%" onclick="currentSlide(5)" alt="Grey Scale Map ArcGIS Pro">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images/TNmap3.PNG" alt="Population Density MAPublisher" style="width:100%" onclick="currentSlide(6)" >
+        </div>
+    </div>
+  </div>
+<!--End Owner : Riley Sweeney-->
+  
+<!--
+Spatial Analysis
+Owner : Natalia Hrynko
+Date : Nov 24, 2020
+General formatting taken from the first page
+All photos sourced from schoolwork
+-->
+  <div class= "container">
+    <div class = "text">
+      <div class= "h2">
+        <h2 id="analysis">Spatial Analysis</h2>
+      </div>
+      <hr class= "hr1">
+      <div class= "p1">Once all the data has been collected, sorted, and checked for quality,
+      the analysis can begin. Spatial data is a field that has really ballooned 
+      over the past 40 years. Although data collection is an important step, transferring that data 
+      into knowledge can sometimes be a challenge. If you want help with making 
+      sense of your spatial data come to us. We have spatial analysts who have been
+      specially trained at Fleming College and can handle all your analysis needs.</div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="h4">Modelling</div>
+        <div class= "p3">The Mapping Marvels are able to create models specified to your needs to allow for a long-term
+          answer to analysis programs. Below shows an example of a model and the accompanying tool with adjustable
+          parameters for future iterations of data.</div>
+        <div class=p4>*Click the image to view at full size.</div>
+        <a href="images/ModelRealBig.PNG">
+          <img src="images/ModelBig.PNG" class= "picture" alt="Model Example" width="388" height="179">
+        </a>
+      </div>
+      <div class="col-md-6">
+        <div class="h4">Digitizing Data</div>
+        <div class= "p3">Our specialists are able to digitize data from a variety of sources albeit photographic aerial images
+         to GPS co-ordinates collected by our trained technicians. Below shows digitization of land use from aerial 
+         photographs.</div>
+        <div class=p4>*Click the image to view at full size.</div>
+        <a href="images/Aerialdigi.PNG">
+          <img src="images/Aerialdigi.PNG" class= "picture" width="1045" height="256" alt="Digitizing Example">
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- End Owner: Natalia Hrynko -->
+
+<!--
+Web Design/Programming
+Owner : Sonya Shuster
+Date : Nov 24, 2020
+-->
+  <div class= "container">
+    <div class = "text">
+      <div class= "h2">
+        <h2 id="programming">
+          Web Design and Programming
+        </h2>
+      </div>
+      <hr class= "hr1">
+      <div class= "p1">
+        <p> 
+          Web design skills enable the customization of products and their 
+          outputs. At Mapping Marvels, we have the knowledge and skills to do 
+          just that. We have knowledge of the three programming languages that 
+          form the pillars of website design and functionality: HTML, CSS, and 
+          JavaScript. In addition, we also know Python, a general-purpose high-level 
+          programming language, that enables us to automate processes and create 
+          customized solutions to our client's problems. 
+        </p>
+      </div>
+    </div>
+    <!-- 
+      Responsive Table
+      Owner : Sonya Shuster
+      Date : December 1, 2020
+      From : https://getbootstrap.com/docs/4.0/content/tables/ 
+      Makes a table that will scroll horizontally if the screen is not wide enough.
+      -->
+    <div class = "table-responsive">
+      <table class = "table">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Uses</th>
+            <th>Example of Use</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Basic content of a website</td>
+            <td>The text on this website</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Formatting of a website</td>
+            <td>The colours and fonts on this website</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Interactivity of a website</td>
+            <td>The functionality of the slideshow on this website</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Basic high-level programming language</td>
+            <td>Automation and customization of analysis tools</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+<!-- End Owner: Sonya Shuster -->
+</body>
+</html>

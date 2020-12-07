@@ -1,0 +1,446 @@
+/* CSS file for Group 4 website.
+Last modified December 6 2020 */
+
+/* CSS Owned by Natalia Hrynko
+Last modified: Nov 23 2020 */
+
+/*Formatting*/
+
+/* font set up for entire page https://www.cssfontstack.com/Century-Gothic 
+Color scheme from https://www.canva.com/learn/website-color-schemes/ #5 */
+
+body {
+background-color:#D7CEC7;
+font-family: "Century Gothic", "CenturyGothic", "AppleGothic", "sans-serif";
+}
+
+.h1 {
+  color:#76323F;
+  font-size: large;
+}
+
+.h2 {
+  font-size: medium;
+  color: #76323F;
+}
+
+.h4 {
+  font-size:medium;
+  color:white;
+  font-weight: bold;
+  }
+  
+
+
+.p1 {
+  font-size: small;
+  color: black;
+  padding-top:10px;
+padding-bottom:10px;
+}
+
+.p2 {
+  font-size: smaller;
+  color: white;
+  }
+
+.p3 {
+font-size: small;
+color:white;
+text-align: center;
+padding-top:25px;
+}
+.p4 {
+  font-size: small;
+  color:white;
+  padding-bottom:25px;
+  font-style: italic;
+}
+
+.p6 {
+  font-size:small;
+  text-align: left;
+  padding-top: 20px;
+  color:black;
+}
+/*creates break line*/
+
+.hr.hr1 {
+  border-top: #C09F80;
+}
+
+/*header formatting*/
+
+.header {
+  text-align:left;
+  font-size:large;
+  color:#76323F;
+  vertical-align:center;
+  }
+
+/*general image formatting*/
+
+/* responsive imagery for header https://cocobasic.ticksy.com/article/10484/ */
+
+
+.header-logo {
+  max-width:100%;
+  height: auto;
+  float: left;
+  padding:5px;
+}
+
+.picture {
+  max-width:100%;
+  height: auto;
+}
+  
+
+/*paragraph structuring to keep centre, 
+inspired by https://www.orbitmedia.com/blog/web-design-tips/ */
+
+.text {
+  text-align:center; 
+  margin:auto;
+}
+
+/*http://patrickmoldowan.weebly.com/ take container class- use bootstrap to create responsive design
+and understood using https://www.youtube.com/watch?v=UeHdHsYDggc */
+
+.col-sm-4 {
+  background-color: #C09F80;
+  padding:10px;
+  align-items:center;
+}
+
+.col-md-4 {
+  background-color: #C09F80;
+  padding:10px;
+  align-items: center;
+  }
+
+.col-md-6 {
+  background-color: #76323F;
+  padding:25px;
+  align-items: center;
+  }
+.column {
+  background-color: #C09F80;
+}
+
+/*End Natalia Hrynko CSS */
+
+
+/*Responsive Navigation Bar
+Adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp/*/
+/* Main Navbar Owner: Riley Sweeney */
+.topnav {
+  overflow: hidden;
+  background-color: #565656;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #C09F80;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav-right {
+  float: right;
+  background-color: #76323F;
+}
+
+/* Dropdown Element of Navbar
+Adapted from: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+/* Dropdown Element Owner: Sonya Shuster */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  /* position: relative;
+  display: inline-block; */
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #565656;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*End Nav Bar/*/
+
+
+/*
+Team Photo 
+Owner : Riley Sweeney
+Date : November 22, 2020
+Source: https://www.w3schools.com/css/css3_images.asp
+/*/
+#Team {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+/* End Owner : Riley Sweeney /*/
+
+/*
+Team Member Photo 
+Owner : Riley Sweeney
+Date : November 22, 2020
+/*/
+
+.TeamMember {
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  max-height: 210px;
+  border-radius: 40%;
+  display: inline;
+}
+/* End Owner : RIley Sweeney /*/
+
+/* Team Members Photo Container
+Owner : Riley Sweeney
+Date : November 22, 2020
+src : https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
+/*/ 
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+h3 {
+  text-align: center;
+}
+/* End Owner : Riley Sweeney /*/
+
+/* Team Page Button
+Owner : Riley Sweeney
+Date : November 22, 2020
+src : https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css
+/*/ 
+
+#Competitor {
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #76323F;
+  margin-top: 50px;
+  width: 100%;
+}
+/* End Owner : RIley Sweeney /*/
+
+/* Cartogrtaphy page Logo Icons
+Owner : Riley Sweeney
+Date : November 22, 2020
+/*/
+.Cart{
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: inline;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End Owner : RIley Sweeney /*/
+
+/* Slideshow Cartography on services page
+Owner : Riley Sweeney
+Date : November 22, 2020
+src : https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp /*/
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #76323F;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #76323F;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/*End Owner : Riley Sweeney/*/
+
+/* Table in Web Design/Programming section of Services page
+Owner: Sonya Shuster
+Date: December 1, 2020 */
+.table {
+  background-color: #76323F;
+  color: white;
+}
+/* End Owner: Sonya Shuster */
+/* Services Page Content
+Owner : riley Sweeney
+Date : December 1, 2020
+ /*/
+.p5 {
+  font-size: large;
+  color: #76323F;
+  text-align: center;
+}
+/*End Owner : Riley Sweeney/*/

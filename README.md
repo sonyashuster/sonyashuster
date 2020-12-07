@@ -1,16 +1,15 @@
-### Hi there 👋
+# a3web
+This is a website designed for the Mapping Marvels Geographic Informations firm. 
 
-<!--
-**sonyashuster/sonyashuster** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+General Work Breakdown
+1.Formatting- Natalia Hrynko
+2.Main Menu/Navigation Design- Sonya Shuster
+3.Javascript/JQuery- Riley Sweeney
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Text for Pages Breakdown
+1.index- Natalia
+2.About- Riley
+3.Data Collection- Sonya
+4.Cartographic- Riley
+5.Spatial Analysis- Natalia
+6.Web Design-Sonya
